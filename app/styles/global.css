@@ -6,3 +6,11 @@
   box-sizing: border-box;
 }
 
+body, input, select, textarea, button {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'VT323', monospace;
+  letter-spacing: 1px;
+}
