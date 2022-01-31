@@ -28,7 +28,7 @@
   width: 100%;
 }
 
-.pokemon-card__content span {
+.pokemon-card__content p {
   color: #fff;
   opacity: 0.8;
   font-size: 1.25rem;
@@ -38,6 +38,20 @@
 .pokemon-card__content h2 {
   color: #fff;
   font-size: 2.25rem;
+  margin-bottom: 4px;
+
+}
+
+.pokemon-card__content span {
+  padding: 4px 8px;
+  font-size: 12px;
+  filter: contrast(1.5);
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.pokemon-card__content span + span {
+  margin-left: 4px;
 }
 
 .pokemon-card svg {
