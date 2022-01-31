@@ -1,4 +1,15 @@
-# Pokedex
+<div align="center">
+  <img src="./public/logo.png" alt="Logo" />
+</div>
+
+## Screenshot
+<div align="center">
+  <img src="./public/home.png" alt="Home Page" />
+</div>
+
+<div align="center">
+  <img src="./public/pokemon.png" alt="Pokemon Page" />
+</div>
 
 ## Development
 
