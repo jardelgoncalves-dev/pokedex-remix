@@ -42,6 +42,7 @@ export default function Home() {
             key={pokemon.name}
             name={pokemon.name}
             url={pokemon.url}
+            to={`/pokemon/${pokemon.name}`}
           />
         ))
       }
