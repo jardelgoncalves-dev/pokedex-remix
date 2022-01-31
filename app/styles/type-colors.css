@@ -69,3 +69,75 @@
 .steel {
   background-color: hsl(199, 40%, 50%);
 }
+
+.text-grass {
+  color: hsl(119, 29%, 64%);
+}
+
+.text-fire {
+  color: hsl(29, 100%, 67%);
+}
+
+.text-water {
+  color: hsl(208, 90%, 65%);
+}
+
+.text-bug {
+  color: hsl(106, 54%, 65%);
+}
+
+.text-flying {
+  color: hsl(221, 63%, 70%);
+}
+
+.text-normal {
+  color: hsl(224, 11%, 74%);
+}
+
+.text-poison {
+  color: hsl(309, 23%, 51%);
+}
+
+.text-electric {
+  color: hsl(45, 86%, 64%);
+}
+
+.text-ground {
+  color: hsl(19, 91%, 64%);
+}
+
+.text-fairy {
+  color: hsl(336, 63%, 79%);
+}
+
+.text-fighting {
+  color: hsl(345, 80%, 60%);
+}
+
+.text-psychic {
+  color: hsl(359, 100%, 70%);
+}
+
+.text-rock {
+  color: hsl(43, 43%, 71%);
+}
+
+.text-ghost {
+  color: hsl(256, 37%, 59%);
+}
+
+.text-ice {
+  color: hsl(172, 40%, 50%);
+}
+
+.text-dragon {
+  color: hsl(226, 33%, 59%);
+}
+
+.text-dark {
+  color: hsl(246, 4%, 45%);
+}
+
+.text-steel {
+  color: hsl(199, 40%, 50%);
+}
