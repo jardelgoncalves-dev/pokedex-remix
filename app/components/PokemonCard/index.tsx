@@ -8,6 +8,7 @@ import { Pokemon } from "~/interfaces/pokemon"
 type PokemonCardProps = {
   name: string
   url: string
+  to: string
 }
 
 export default function PokemonCard(props: PokemonCardProps) {
@@ -22,11 +23,15 @@ export default function PokemonCard(props: PokemonCardProps) {
   }, [props.url])
 
   return (
-    <Link to={"#"} className={`pokemon-card ${pokemon?.types?.[0]?.type?.name ?? ''}`}>
+    <Link to={props.to} className={`pokemon-card ${pokemon?.types?.[0]?.type?.name ?? ''}`}>
       <Pokeball />
       <div className="pokemon-card__content">
-        <span>#{pokemon?.id}</span>
+        <p>#{pokemon?.id}</p>
         <h2>{props.name}</h2>
+        {pokemon?.types?.map(type => (
+          <span className={type?.type.name ?? ''}>{type.type.name}</span>
+        ))}
+
       </div>
       {!!pokemon?.sprites?.other?.['official-artwork'] && (
         <img src={pokemon?.sprites?.other?.['official-artwork'].front_default} alt={props.name} />
